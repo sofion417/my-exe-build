@@ -21,7 +21,7 @@ jobs:
           pip install pyinstaller
 
       - name: 打包成EXE
-        run: pyinstaller -F -w main.py
+        run: pyinstaller -F -w XL008-FT1-PAT-V9-FC-V2.py
 
       - name: 下载EXE
         uses: actions/upload-artifact@v4
