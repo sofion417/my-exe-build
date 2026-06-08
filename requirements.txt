@@ -1,0 +1,8 @@
+pandas>=1.0.0
+numpy>=1.18.0
+configparser>=5.0.0
+tkinter==8.6  # tkinter通常随Python自带，此处标注版本仅作说明
+shutil        # 内置库，无需安装
+os            # 内置库，无需安装
+re            # 内置库，无需安装
+time          # 内置库，无需安装
